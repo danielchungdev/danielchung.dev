@@ -14,7 +14,7 @@
     },
     {
         "position": "Data Engineer",
-        "company": "Rochester Institute of Technology",
+        "company": "RIT",
         "years": "Jun 2022 - Dec 2022",
         "responsabilities": [
             "Automated email alerts with Microsoft Azure Logic App to existing data pipelines, notifying a team of 14 engineers within 30 seconds.",

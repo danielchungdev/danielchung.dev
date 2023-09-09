@@ -30,6 +30,7 @@ const Home = () => {
 			lg:bg-yellow-400
 			 md:bg-red-500
 			  sm:bg-slate-700 
+        xs: bg-blue-500
 				">
         <h1 className="text-blue-200">Current width</h1>
       </div> */}

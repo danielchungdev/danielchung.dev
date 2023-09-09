@@ -3,10 +3,10 @@ import BlogList from "../../../public/json/blogs.json"
 export const Blogs = () => {
 
     const noBlogsFound = (
-        <>
+        <div>
             <h1>Sorry, no blogs found...</h1>
             <p>Stay updated for new upcoming writings.</p>
-        </>
+        </div>
     )
 
     const blogs = (

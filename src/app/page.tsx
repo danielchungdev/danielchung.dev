@@ -24,20 +24,10 @@ const Home = () => {
 
   return (
     <main>
-      {/* <div className="
-			2xl:bg-black
-			xl:bg-green-600
-			lg:bg-yellow-400
-			 md:bg-red-500
-			  sm:bg-slate-700 
-        xs: bg-blue-500
-				">
-        <h1 className="text-blue-200">Current width</h1>
-      </div> */}
 
       {/* Banner */}
 
-      <div className="glass m-4 mx-2 sm:mx-0">
+      <div className="glass m-4 mx-2 sm:mx-0 hover:scale-[1.01] transition-all duration-500">
         <div className="mt-5">
           <div className="mx-5 ">
             <Image

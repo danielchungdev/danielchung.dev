@@ -3,10 +3,10 @@ import BlogList from "../../../public/json/blogs.json"
 export const Blogs = () => {
 
     const noBlogsFound = (
-        <div className="glass p-4 text-white">
+        <>
             <h1>Sorry, no blogs found...</h1>
             <p>Stay updated for new upcoming writings.</p>
-        </div>
+        </>
     )
 
     const blogs = (
@@ -16,7 +16,7 @@ export const Blogs = () => {
     )
 
     return(
-        <div>
+        <div className="mx-2 sm:mx-0 glass p-4 text-white ">
             {
                 BlogList.length < 1 ? noBlogsFound : blogs
             }

@@ -67,10 +67,13 @@ const Home = () => {
 
       {/* content */}
 
-      <div className="my-4">
+      <div className="mt-4 mb-8">
         {chooseContent(current)}
       </div>
-
+      
+      <div className="text-neutral-200 text-center mb-8 text-sm">
+        <h1>made with ❤️ at 4:00 am</h1>
+      </div>
     </main>
   )
 }

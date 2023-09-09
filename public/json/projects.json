@@ -1,0 +1,20 @@
+[
+    {
+        "name": "PrivaC",
+        "tools": ["Next.js", "Tailwindcss", "TypeScript"],
+        "description": "Bangladesh's 1st cybercrime countermeasure services organization",
+        "website": "https://github.com/privac-bangladesh"
+    },
+    {
+        "name": "Emoji Replacer",
+        "tools": ["Python"],
+        "description": "Python script that allows you to insert emojis using discord's syntax.",
+        "website": "https://github.com/privac-bangladesh"
+    },
+    {
+        "name": "COVID-19 Tracker",
+        "tools": ["React.js", "HTML", "CSS", "JavaScript"],
+        "description": "React.js application using World's health API to display COVID-19 information and graphics.",
+        "website": "https://github.com/danielchungdev/covid-19-tracker"
+    }
+]

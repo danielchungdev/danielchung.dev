@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .background{
+    background-image: url("/images/background.jpg");
+    width: 100vw;
+    height: 100vh;
+}  */
+
+.background {
+    /* background: linear-gradient(rgb(17, 24, 39), rgb(75, 85, 99)); */
+    background: linear-gradient(to right, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
+    position: relative;
+    display: flex;
+}
+
+.background:before {
+    content: "";
+    background-color: transparent;
+    background-image: url("/svg/noise.svg");
+    background-repeat: repeat;
+    opacity: 0.12;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(119, 119, 119, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.glass2 {
+    background: rgba(146, 24, 24, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(119, 119, 119, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}

@@ -1,0 +1,48 @@
+[
+    {
+        "position": "Front-end Software Engineer",
+        "company": "Cognivue Inc",
+        "years": "Mar 2023 - Present",
+        "responsabilities": [
+                "Created custom React components with enhanced functionality, leveraging advanced features such as state management and prop drilling to deliver dynamic and interactive user interfaces that met specific project requirements.",
+                "Resolved frontend bugs in a .NET project, analyzing codebase and identifying causes to ensure correct functionality",
+                "Implementing RESTful endpoints for Java Spring Boot for seamless data retrieval and manipulation.",
+                "Trained an intern in the company's software process, providing training in React, HTML, and CSS, allowing him to contribute to the team's projects.",
+                "Rewriting an existing application, initially developed in Java, utilizing React and Electron, resulting in improved performance and enhanced user experience."
+            ],
+        "website": "https://cognivue.com/"
+    },
+    {
+        "position": "Data Engineer",
+        "company": "Rochester Institute of Technology",
+        "years": "Jun 2022 - Dec 2022",
+        "responsabilities": [
+            "Automated email alerts with Microsoft Azure Logic App to existing data pipelines, notifying a team of 14 engineers within 30 seconds.",
+            "Led a team of 2 to refactor a Python script to transform 36 SQL tables into parquet tables, lowering the time from 38 seconds to 9.4 seconds."
+        ],
+        "website": "https://www.rit.edu/"
+    },
+    {
+        "position": "Software Developer Intern",
+        "company": "Mindex",
+        "years": "Aug 2021 - Dec 2021",
+        "responsabilities": [
+            "Operated in an agile team of 4 and developed a React fintech web application utilizing Material UI and AWS Amplify.",
+            "Collaborated with four engineers to create a 50+ endpoint with lambda functions and AWS API Gateway.",
+            "Deployed 3 test environments using YAML templates on AWS CloudFormation.",
+            "Customized 20+ UI Vue.js components."
+        ],
+        "website": "https://www.mindex.com/"
+    },
+    {
+        "position": "Full-stack Engineer Intern",
+        "company": "Fedecompras S.A.",
+        "years": "May 2021 - Aug 2021",
+        "responsabilities": [
+            "Deployed a full-stack survey application with AWS and built the application using MERN stack. ",
+            "Implemented a Python script to pull information from an e-commerce CMS daily and update the local Oracle SQL database, saving 45+ minutes every day.",
+            "Maintained and updated the VTEX website weekly with new products and promotion banners."
+        ],
+        "website": "https://www.bbb.com.pa/"
+    }
+]

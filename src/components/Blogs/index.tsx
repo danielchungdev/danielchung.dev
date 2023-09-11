@@ -4,7 +4,7 @@ import blogs from "../../../public/json/blogs.json"
 export default function Blogs() {
 
     const empty = (
-        <h1>No projects found sorry.</h1>
+        <h1>No blogs for now sorry :(.</h1>
     )
 
     const content = (

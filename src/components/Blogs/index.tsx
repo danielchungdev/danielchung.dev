@@ -9,8 +9,8 @@ export default function Blogs() {
 
     const content = (
         <div>
-            {blogs.map(blog => (
-                <h1>{JSON.stringify(blog)}</h1>
+            {blogs.map( (blog, index) => (
+                <h1 key={index}>{JSON.stringify(blog)}</h1>
             ))}
         </div>
     )

@@ -5,7 +5,7 @@ import { FaGithubSquare, FaLinkedin } from "react-icons/fa"
 import { Tabs } from "@/components/Tabs"
 import { WorkExperience } from "@/components/WorkExperience"
 import { Projects } from "@/components/Projects"
-import { Blogs } from "@/components/Blogs"
+import Blogs from "@/components/Blogs"
 
 const Home = () => {
 
@@ -27,7 +27,7 @@ const Home = () => {
 
       {/* Banner */}
 
-      <div className="glass m-4 mx-2 sm:mx-0 hover:scale-[1.01] transition-all duration-500">
+      <div className="glass m-4 mx-2 sm:mx-0">
         <div className="mt-5">
           <div className="mx-5 ">
             <Image

@@ -1,25 +1,27 @@
-import BlogList from "../../../public/json/blogs.json"
+import { HoverAnimations } from "../HoverAnimation/HoverAnimation";
+import blogs from "../../../public/json/blogs.json"
 
-export const Blogs = () => {
+export default function Blogs() {
 
-    const noBlogsFound = (
+    const empty = (
+        <h1>No projects found sorry.</h1>
+    )
+
+    const content = (
         <div>
-            <h1>Sorry, no blogs found...</h1>
-            <p>Stay updated for new upcoming writings.</p>
+            {blogs.map(blog => (
+                <h1>{JSON.stringify(blog)}</h1>
+            ))}
         </div>
     )
 
-    const blogs = (
-        <div>
-            <p>Yessirrr</p>
-        </div>
-    )
-
-    return(
-        <div className="mx-2 sm:mx-0 glass p-4 text-white ">
-            {
-                BlogList.length < 1 ? noBlogsFound : blogs
-            }
-        </div>
+    return (
+        <HoverAnimations>
+            <div className="text-white">
+                {
+                    Blogs.length < 1 ? empty : content
+                }
+            </div>
+        </HoverAnimations>
     )
 }

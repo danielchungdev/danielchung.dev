@@ -1,0 +1,22 @@
+import '../globals.css'
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
+
+export const metadata: Metadata = {
+  title: 'Daniel Chung | SWE',
+  description: 'Portfolio website :)',
+}
+
+export default function Layout({ children,}: { children: React.ReactNode}) {
+  return (
+      <div className={`${inter.className} background h-screen w-screen`}>
+        <div className='w-screen'>
+          <div className='m-auto w-full sm:w-3/4 md:w-3/5 lg:w-1/2 xl:w-2/5 2xl:w-2/6 '>
+            {children}
+          </div>
+        </div>
+      </div>
+  )
+}

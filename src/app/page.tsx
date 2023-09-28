@@ -5,7 +5,7 @@ import { FaGithubSquare, FaLinkedin } from "react-icons/fa"
 import { Tabs } from "@/components/Tabs"
 import { WorkExperience } from "@/components/WorkExperience"
 import { Projects } from "@/components/Projects"
-import Blogs from "@/components/Blogs"
+import Link from "next/link"
 
 const Home = () => {
 
@@ -17,8 +17,6 @@ const Home = () => {
         return <WorkExperience />
       case 2:
         return <Projects />
-      case 3:
-        return <Blogs />
     }
   }
 
@@ -37,8 +35,11 @@ const Home = () => {
               width={125}
               height={125}
             />
-            <h1 className="my-4 font-bold text-2xl text-white">Daniel Chung</h1>
-            <h1 className="text-white">Recent Web & Mobile Computing graduate from RIT, experienced in web development. Currently working at Cognivue as a Front-end Engineer.</h1>
+            <div className="text-white">
+              <h1 className="my-4 font-bold text-2xl ">Daniel Chung</h1>
+              <h1>Recent Web & Mobile Computing graduate from RIT, experienced in web development. Currently working at Cognivue as a Front-end Engineer.</h1>
+              <h1 className="my-4">Check out my blog <Link href="/writing" className="underline hover:text-sky-500 transition ease-in-out duration-700">here</Link></h1>
+            </div>
             <div className="my-4 flex gap-2">
               <a href="https://github.com/danielchungdev" target="_blank">
                 <FaGithubSquare className="text-neutral-200 w-8 h-8" />
@@ -51,7 +52,6 @@ const Home = () => {
           <div className="flex justify-around">
             <Tabs title="Experience" onClick={() => setCurrent(1)} selected={current === 1} />
             <Tabs title="Projects" onClick={() => setCurrent(2)} selected={current === 2} />
-            <Tabs title="Blogs" onClick={() => setCurrent(3)} selected={current === 3} />
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@ const Home = () => {
       <div className="mt-4 mb-8">
         {chooseContent(current)}
       </div>
-      
+
       <div className="text-neutral-200 text-center mb-8 text-sm">
         <h1>made with ❤️ at 4:00 am</h1>
       </div>

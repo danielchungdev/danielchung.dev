@@ -3,7 +3,7 @@ import { TabsComponent } from "./types"
 export const Tabs: TabsComponent = ({ title, onClick, selected }) => {
     return (
         <div 
-            className={`w-1/3 text-center text-white ${selected ? "font-semibold" : null}
+            className={`w-1/2 text-center text-white ${selected ? "font-semibold" : null}
             ${selected ? "bg-gray-100" : null} ${selected ? "rounded-sm" : null} 
             ${selected ? "rounded-sm" : null} ${selected ? "rounded-sm" : null} 
             ${selected ? "bg-clip-padding" : null} ${selected ? "backdrop-filter" : null} 

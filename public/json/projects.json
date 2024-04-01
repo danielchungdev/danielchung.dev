@@ -1,5 +1,11 @@
 [
     {
+        "name": "Word Association",
+        "tools": ["Next.js", "Tailwindcss", "TypeScript", "Framer Motion"],
+        "description": "Word Association game, was able to gather 200 daily players.",
+        "website": "https://wordassociation.danielchung.dev/"
+    },
+    {
         "name": "PrivaC",
         "tools": ["Next.js", "Tailwindcss", "TypeScript"],
         "description": "Bangladesh's 1st cybercrime countermeasure services organization",

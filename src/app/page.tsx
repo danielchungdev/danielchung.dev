@@ -38,7 +38,8 @@ const Home = () => {
               height={125}
             />
             <h1 className="my-4 font-bold text-2xl text-white">Daniel Chung</h1>
-            <h1 className="text-white">Recent Web & Mobile Computing graduate from RIT, experienced in web development. Currently working at Cognivue as a Front-end Engineer.</h1>
+            <h1 className="text-white">Recent Web & Mobile Computing graduate from RIT, experienced in web development.</h1>
+            <h1 className="text-white">Currently working at Cognivue as a Front-end Engineer.</h1>
             <div className="my-4 flex gap-2">
               <a href="https://github.com/danielchungdev" target="_blank">
                 <FaGithubSquare className="text-neutral-200 w-8 h-8" />

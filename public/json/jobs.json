@@ -2,14 +2,16 @@
     {
         "position": "Front-end Software Engineer",
         "company": "Cognivue Inc",
-        "years": "Mar 2023 - Present",
+        "years": "Mar 2023 - Apr. 2024",
         "responsabilities": [
-                "Created custom React components with enhanced functionality, leveraging advanced features such as state management and prop drilling to deliver dynamic and interactive user interfaces that met specific project requirements.",
-                "Resolved frontend bugs in a .NET project, analyzing codebase and identifying causes to ensure correct functionality",
-                "Implementing RESTful endpoints for Java Spring Boot for seamless data retrieval and manipulation.",
-                "Trained an intern in the company's software process, providing training in React, HTML, and CSS, allowing him to contribute to the team's projects.",
-                "Rewriting an existing application, initially developed in Java, utilizing React and Electron, resulting in improved performance and enhanced user experience."
-            ],
+            "Led frontend development of a cognitive assessment screening device (Cognivue Thrive & Cognivue Clarity) used by doctors and nurses in medical settings to perform tests on patients related to cerebral health",
+            "Refactored Java 11 UI to React and Electron which improved performance by 20% and enhanced user experience by providing a modern user interface.",
+            "Worked on an agile-scrum team of 13 using Jira for sprint planning and Bitbucket for code versioning",
+            "Created reusable custom React components and hooks for patient & user management dashboard.",
+            "Performed risk assessment on codebase and resolved frontend bugs in a .NET project.",
+            "Implemented RESTful endpoints for Java API using Spring Boot 3 as well as writing unit tests",
+            "Mentored an intern in the company's software process, provided training in React, HTML, and CSS"
+        ],
         "website": "https://cognivue.com/"
     },
     {

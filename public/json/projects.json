@@ -2,7 +2,7 @@
     {
         "name": "Have Hope Tattoo",
         "tools": ["Next.js", "Tailwindcss", "TypeScript"],
-        "description": "My take on a website redesign for Have Hope Tattoo, original website can be found here. https://havehopetattoo.com/",
+        "description": "My take on a website redesign for Have Hope Tattoo, to see the original website go to havehopetattoo.com or click on any 'Book now!' buttons",
         "website": "https://havehopetattoo.danielchung.dev/"
     },
     {

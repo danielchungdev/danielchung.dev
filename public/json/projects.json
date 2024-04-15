@@ -1,24 +1,24 @@
 [
     {
-        "name": "Have Hope Tattoo",
+        "name": "Have Hope Tattoo - (Redesign)",
         "tools": ["Next.js", "Tailwindcss", "TypeScript"],
         "description": "My take on a website redesign for Have Hope Tattoo, to see the original website go to havehopetattoo.com or click on any 'Book now!' buttons",
         "website": "https://havehopetattoo.danielchung.dev/"
     },
     {
-        "name": "Word Association",
+        "name": "Word Association - (Game)",
         "tools": ["Next.js", "Tailwindcss", "TypeScript", "Framer Motion"],
         "description": "Word Association game, with 200 daily players.",
         "website": "https://wordassociation.danielchung.dev/"
     },
     {
-        "name": "PrivaC",
+        "name": "PrivaC - (Company Website)",
         "tools": ["Next.js", "Tailwindcss", "TypeScript"],
         "description": "Bangladesh's 1st cybercrime countermeasure services organization.",
         "website": "https://www.myprivac.com/"
     },
     {
-        "name": "Emoji Replacer",
+        "name": "Emoji Replacer - (Python Script)",
         "tools": ["Python"],
         "description": "Python script that allows you to insert emojis using discord's syntax.",
         "website": "https://github.com/privac-bangladesh"

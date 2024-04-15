@@ -14,9 +14,9 @@ const Home = () => {
   const chooseContent = (contentId: number) => {
     switch (contentId) {
       case 1:
-        return <WorkExperience />
-      case 2:
         return <Projects />
+      case 2:
+        return <WorkExperience />
       case 3:
         return <Blogs />
     }
@@ -50,8 +50,8 @@ const Home = () => {
             </div>
           </div>
           <div className="flex justify-around">
-            <Tabs title="Experience" onClick={() => setCurrent(1)} selected={current === 1} />
-            <Tabs title="Projects" onClick={() => setCurrent(2)} selected={current === 2} />
+          <Tabs title="Projects" onClick={() => setCurrent(1)} selected={current === 1} />
+            <Tabs title="Experience" onClick={() => setCurrent(2)} selected={current === 2} />
             <Tabs title="Blogs" onClick={() => setCurrent(3)} selected={current === 3} />
           </div>
         </div>

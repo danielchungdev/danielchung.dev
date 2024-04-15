@@ -8,7 +8,7 @@ export const ProjectCard: ProjectCardComponent = ({ project }) => {
       <HoverAnimations>
         <div className=" text-white">
           <h1 className="font-semibold text-lg">{project.name}</h1>
-          <div className="flex gap-2 my-2">
+          <div className="flex gap-2 my-2 flex-wrap">
             {
               project.tools.map((tool, index) => (
                 <p key={index} className="text-sm  px-2 rounded-full border border-neutral-100">{tool}</p>

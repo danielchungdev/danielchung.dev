@@ -4,13 +4,11 @@
         "company": "Cognivue Inc",
         "years": "Mar 2023 - Apr. 2024",
         "responsabilities": [
-            "Led frontend development of a cognitive assessment screening device (Cognivue Thrive & Cognivue Clarity) used by doctors and nurses in medical settings to perform tests on patients related to cerebral health",
-            "Refactored Java 11 UI to React and Electron which improved performance by 20% and enhanced user experience by providing a modern user interface.",
-            "Worked on an agile-scrum team of 13 using Jira for sprint planning and Bitbucket for code versioning",
-            "Created reusable custom React components and hooks for patient & user management dashboard.",
-            "Performed risk assessment on codebase and resolved frontend bugs in a .NET project.",
-            "Implemented RESTful endpoints for Java API using Spring Boot 3 as well as writing unit tests",
-            "Mentored an intern in the company's software process, provided training in React, HTML, and CSS"
+            "Led the migration of a Java 11 JavaFX application to a modern React.js and Electron based user interface; resulting in a 15% increase in application load speed as well as a 40% increase in custom retention",
+            "Designed wireframes and prototypes with Figma; focused on maintaining design consistency",
+            "Collaborated with engineers to build 50+ RESTful API endpoints utilizing Java Spring Boot 3; optimized SQL queries increasing the API performance by 13%",
+            "Created a reusable React component library with Typescript and styled with Tailwindcss, resulting in a 30% reduction in development time for new projects",
+            "Mentored an intern in the company's software process and technologies"
         ],
         "website": "https://cognivue.com/"
     },
@@ -19,8 +17,18 @@
         "company": "RIT",
         "years": "Jun 2022 - Dec 2022",
         "responsabilities": [
-            "Automated email alerts with Microsoft Azure Logic App to existing data pipelines, notifying a team of 14 engineers within 30 seconds.",
-            "Led a team of 2 to refactor a Python script to transform 36 SQL tables into parquet tables, lowering the time from 38 seconds to 9.4 seconds."
+            "Automated email alerts with Microsoft Azure Logic App to existing data pipelines, notifying a team of 14 engineers within 30 seconds",
+            "Led a team of 2 to refactor a Python script to transform 36 SQL tables into parquet tables, lowering the time from 38 seconds to 9.4 seconds"
+        ],
+        "website": "https://www.rit.edu/"
+    },
+    {
+        "position": "Undergraduate Research Assistant",
+        "company": "RIT",
+        "years": "Jan 2022 - Dec 2022",
+        "responsabilities": [
+            "Built a full stack web application to present and visualize data on Victorian literature with Next.js, TypeScript, Express and PostgreSQL, launched in RIT servers",
+            "Researched and Conducted 200+ customer discovery interviews, and implemented feedback into the application"
         ],
         "website": "https://www.rit.edu/"
     },
@@ -29,10 +37,9 @@
         "company": "Mindex",
         "years": "Aug 2021 - Dec 2021",
         "responsabilities": [
-            "Operated in an agile team of 4 and developed a React fintech web application utilizing Material UI and AWS Amplify.",
-            "Collaborated with four engineers to create a 50+ endpoint with lambda functions and AWS API Gateway.",
-            "Deployed 3 test environments using YAML templates on AWS CloudFormation.",
-            "Customized 20+ UI Vue.js components."
+            "Developed and maintained user interfaces using React.js and Vue.js, resulting in 20% increase in page load speed",
+            "Collaborated with a team to design and implement a serverless architecture using AWS Lambda and API Gateway, creating 20+ RESTful API endpoints, resulting in a 13% increase in API performance by optimizing SQL queries",
+            "Deployed 3 test environments using YAML templates on AWS CloudFormation"
         ],
         "website": "https://www.mindex.com/"
     },
@@ -41,9 +48,8 @@
         "company": "Fedecompras S.A.",
         "years": "May 2021 - Aug 2021",
         "responsabilities": [
-            "Deployed a full-stack survey application with AWS and built the application using MERN stack. ",
-            "Implemented a Python script to pull information from an e-commerce CMS daily and update the local Oracle SQL database, saving 45+ minutes every day.",
-            "Maintained and updated the VTEX website weekly with new products and promotion banners."
+            "Developed a web application with JavaScript and PHP to keep track of employees’ punch times, leading to a 2 hour reductionspent on payroll",
+            "Architected a web application with Node.js and AWS DynamoDB to update the arrival of new merchandise into storage;resulting in a 25% increase in productivity"
         ],
         "website": "https://www.bbb.com.pa/"
     }

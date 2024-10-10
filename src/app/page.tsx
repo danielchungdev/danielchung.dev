@@ -39,7 +39,7 @@ const Home = () => {
             />
             <h1 className="my-4 font-bold text-2xl text-white">Daniel Chung</h1>
             <h1 className="text-white">Recent Web & Mobile Computing graduate from RIT, experienced in web development.</h1>
-            <h1 className="text-white mt-2">Currently working @ Seguros ASSA</h1>
+            <h1 className="text-white mt-2">Currently working @ <b>Seguros ASSA</b></h1>
             <div className="my-4 flex gap-2">
               <a href="https://github.com/danielchungdev" target="_blank">
                 <FaGithubSquare className="text-neutral-200 w-8 h-8" />
@@ -50,19 +50,18 @@ const Home = () => {
             </div>
           </div>
           <div className="flex justify-around">
-          <Tabs title="Projects" onClick={() => setCurrent(1)} selected={current === 1} />
+            <Tabs title="Projects" onClick={() => setCurrent(1)} selected={current === 1} />
             <Tabs title="Experience" onClick={() => setCurrent(2)} selected={current === 2} />
             <Tabs title="Blogs" onClick={() => setCurrent(3)} selected={current === 3} />
           </div>
         </div>
       </div>
-
       {/* content */}
 
       <div className="mt-4 mb-8">
         {chooseContent(current)}
       </div>
-      
+
       <div className="text-neutral-200 text-center mb-8 text-sm">
         <h1>made with ❤️ at 4:00 am</h1>
       </div>

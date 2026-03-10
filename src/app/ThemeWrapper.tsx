@@ -11,7 +11,11 @@ export default function ThemeWrapper() {
 
   useEffect(() => {
     const saved = localStorage.getItem('theme')
-    if (saved === 'dark') setIsDark(true)
+    if (saved) {
+      setIsDark(saved === 'dark')
+    } else {
+      setIsDark(window.matchMedia('(prefers-color-scheme: dark)').matches)
+    }
     setMounted(true)
   }, [])
 

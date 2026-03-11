@@ -28,7 +28,7 @@ const card: Variants = {
   show: { opacity: 1, y: 0, transition: { duration: 0.35, ease: [0.25, 0.1, 0.25, 1] } },
 }
 
-export default function AnimatedContent({ isDark }: { isDark: boolean }) {
+export default function AnimatedContent() {
   return (
     <motion.div variants={container} initial="hidden" animate="show">
 
@@ -39,7 +39,6 @@ export default function AnimatedContent({ isDark }: { isDark: boolean }) {
           <a href="https://www.modop.com/" target="_blank" className="text-blue-600 dark:text-blue-400 underline underline-offset-2">
             Mod Op
           </a>
-          . I build things for the web and occasionally write about it.
         </p>
         <div className="flex gap-4">
           <a href="https://github.com/danielchungdev" target="_blank" className="text-blue-600 dark:text-blue-400 underline underline-offset-2">github</a>
@@ -77,12 +76,7 @@ export default function AnimatedContent({ isDark }: { isDark: boolean }) {
               href={project.website}
               target="_blank"
               className="block border border-neutral-300 dark:border-neutral-700 rounded p-4 hover:border-blue-600 dark:hover:border-blue-400 transition-colors duration-150"
-              whileHover={{
-                y: -3,
-                boxShadow: isDark
-                  ? '0 6px 20px rgba(0,0,0,0.4)'
-                  : '0 6px 20px rgba(0,0,0,0.08)',
-              }}
+              whileHover={{ y: -3, boxShadow: '0 6px 20px rgba(0,0,0,0.1)' }}
               transition={{ duration: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
             >
               <p className="font-bold">{project.name}</p>

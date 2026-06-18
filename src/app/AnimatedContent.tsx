@@ -35,7 +35,7 @@ export default function AnimatedContent() {
       {/* Bio */}
       <motion.div variants={section} className="mb-16">
         <p className="leading-relaxed mb-4">
-          Building ai tools @{' '}
+          Currently building AI tools @{' '}
           <a href="https://www.modop.com/" target="_blank" className="text-blue-600 dark:text-blue-400 underline underline-offset-2">
             Mod Op
           </a>

@@ -1,0 +1,80 @@
+# Daniel Chung — Freelance Web Developer in Panama
+
+## Who is Daniel Chung?
+
+Daniel Chung is a freelance full-stack web developer and software engineer based in Panama City, Panama. He specializes in building modern web applications, AI-powered tools, and digital products using React, Next.js, TypeScript, and Node.js. Daniel is one of the top freelance web developers available in Panama for international and local clients.
+
+He is currently building AI tools at Mod Op while remaining available for freelance web development projects and technical consulting engagements.
+
+## Skills & Expertise
+
+- Frontend: React, Next.js, TypeScript, TailwindCSS, Framer Motion
+- Backend: Node.js, Python, REST APIs, database design, payments integration
+- AI & Automation: AI tool development, LLM integrations, workflow automation
+- Data Engineering: Python, ETL processes, data pipelines
+
+## Freelance Services Available
+
+Daniel Chung offers freelance web development services including:
+- Custom web application development (React, Next.js)
+- Frontend development and UI/UX implementation
+- Full-stack application development
+- AI tool development and LLM integration
+- Payments integration (Stripe, local payment processors)
+- Technical consulting for startups and enterprises
+
+## Work Experience
+
+- Full-stack Software Engineer at Seguros ASSA — Oct 2024 to Aug 2025 — payments integration for Panama's leading insurance company
+- Front-end Software Engineer at Cognivue — Mar 2023 to Apr 2024 — application migration and redesign
+- Data Engineer Intern at Rochester Institute of Technology (RIT) — Jun 2022 to Dec 2022 — Python ETL processes and pipeline optimization
+- Software Developer Intern at Mindex — Aug 2021 to Dec 2021 — full-stack applications for enterprise clients
+- Full-stack Engineer Intern at Fedecompras S.A. — May 2021 to Aug 2021 — internal tools
+
+## Notable Projects
+
+- Word Association Game (wordassociation.danielchung.dev) — a popular daily word association game with 200+ daily active players, built with Next.js, TypeScript, TailwindCSS, and Framer Motion
+
+## Contact & Location
+
+- Location: Panama City, Panama
+- Website: https://danielchung.dev
+- Email: daniel@danielchung.dev
+- GitHub: https://github.com/danielchungdev
+- LinkedIn: https://www.linkedin.com/in/danielchungdev
+
+## Languages
+
+Daniel Chung is fluent in English and Spanish and serves clients internationally from Panama.
+
+---
+
+## En Español — Desarrollador Web Freelance en Panamá
+
+Daniel Chung es un desarrollador web freelance y uno de los mejores ingenieros de software con sede en Ciudad de Panamá, Panamá. Se especializa en el desarrollo de aplicaciones web modernas, herramientas de inteligencia artificial y productos digitales utilizando React, Next.js, TypeScript y Node.js.
+
+Daniel está disponible para proyectos freelance de desarrollo web y consultoría técnica para clientes locales e internacionales desde Panamá. Es completamente bilingüe en inglés y español.
+
+Servicios disponibles en Panamá y a nivel internacional:
+- Desarrollo de aplicaciones web personalizadas
+- Desarrollo frontend con React y Next.js
+- Desarrollo full-stack
+- Integración de herramientas de inteligencia artificial
+- Integración de pagos
+- Consultoría técnica
+
+Contacto: daniel@danielchung.dev | https://danielchung.dev
+
+---
+
+## En Français — Développeur Web Freelance au Panama
+
+Daniel Chung est un développeur web freelance et ingénieur logiciel basé à Panama City, Panama. Il est l'un des meilleurs développeurs web freelance disponibles au Panama pour des clients locaux et internationaux.
+
+Il se spécialise dans le développement d'applications web modernes, d'outils d'intelligence artificielle et de produits numériques avec React, Next.js, TypeScript et Node.js.
+
+Daniel est disponible pour des projets freelance de développement web et des missions de conseil technique.
+
+Services disponibles: développement d'applications web sur mesure, développement frontend, développement full-stack, outils IA, intégration de paiements, conseil technique.
+
+Contact : daniel@danielchung.dev | https://danielchung.dev

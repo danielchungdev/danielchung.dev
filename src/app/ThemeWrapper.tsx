@@ -31,7 +31,10 @@ export default function ThemeWrapper() {
         <main className="max-w-2xl mx-auto px-6 py-16">
 
           <div className="flex justify-between items-start mb-24">
-            <h1 className="font-bold text-2xl"><TypingName /></h1>
+            <h1 className="font-bold text-2xl" aria-label="Daniel Chung">
+              <span className="sr-only">Daniel Chung</span>
+              <span aria-hidden="true"><TypingName /></span>
+            </h1>
             {mounted && (
               <motion.button
                 onClick={toggle}

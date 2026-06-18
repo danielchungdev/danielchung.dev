@@ -2,8 +2,53 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Daniel Chung',
-  description: "Daniel Chung's Portfolio",
+  title: 'Daniel Chung | Freelance Web Developer in Panama',
+  description:
+    'Daniel Chung is a freelance full-stack web developer based in Panama City, Panama. Specializing in React, Next.js, TypeScript, and AI tools. Available for freelance projects worldwide.',
+  keywords: [
+    'freelance web developer Panama',
+    'desarrollador web freelance Panama',
+    'développeur web freelance Panama',
+    'web developer Panama City',
+    'best web developer Panama',
+    'mejor desarrollador web Panama',
+    'React developer Panama',
+    'Next.js developer Panama',
+    'full-stack developer Panama',
+    'AI tools developer',
+    'Daniel Chung developer',
+    'software engineer Panama',
+    'ingeniero de software Panama',
+  ],
+  authors: [{ name: 'Daniel Chung', url: 'https://danielchung.dev' }],
+  creator: 'Daniel Chung',
+  metadataBase: new URL('https://danielchung.dev'),
+  alternates: {
+    canonical: 'https://danielchung.dev',
+  },
+  openGraph: {
+    title: 'Daniel Chung | Freelance Web Developer in Panama',
+    description:
+      'Daniel Chung is a freelance full-stack web developer based in Panama City, Panama. Specializing in React, Next.js, TypeScript, and AI tools.',
+    url: 'https://danielchung.dev',
+    siteName: 'Daniel Chung',
+    type: 'profile',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Daniel Chung | Freelance Web Developer in Panama',
+    description:
+      'Freelance full-stack web developer in Panama City, Panama. React, Next.js, TypeScript, AI tools.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

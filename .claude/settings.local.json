@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(npm audit *)",
+      "Bash(npm outdated *)",
+      "Bash(npm install *)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('postcss:', d.get\\('dependencies', {}\\).get\\('postcss', 'not found'\\)\\); print\\('peerDeps:', d.get\\('peerDependencies', {}\\).get\\('postcss', 'not found'\\)\\)\")",
+      "Bash(npm info *)",
+      "Bash(python3 -c \"import json,sys; versions=json.load\\(sys.stdin\\); print\\([v for v in versions if v.startswith\\('4.'\\)][-5:]\\)\")"
     ]
   }
 }

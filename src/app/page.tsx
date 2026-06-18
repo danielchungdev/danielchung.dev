@@ -1,5 +1,60 @@
 import ThemeWrapper from './ThemeWrapper'
 
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Who is Daniel Chung?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Daniel Chung is a freelance full-stack web developer and software engineer based in Panama City, Panama. He specializes in React, Next.js, TypeScript, Node.js, and AI tool development. He is currently building AI tools at Mod Op and is available for freelance projects worldwide.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What services does Daniel Chung offer?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Daniel Chung offers freelance web development services including: custom web application development with React and Next.js, full-stack application development, AI tool development and LLM integration, payments integration (Stripe and local processors), frontend UI/UX implementation, and technical consulting for startups and enterprises.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Where is Daniel Chung located?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Daniel Chung is based in Panama City, Panama (UTC-5) and works with clients worldwide. He is fully bilingual in English and Spanish.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How can I hire Daniel Chung for a project?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'You can contact Daniel Chung directly at daniel@danielchung.dev or through his website at https://danielchung.dev to discuss your project requirements.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What technologies does Daniel Chung specialize in?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Daniel Chung specializes in React, Next.js, TypeScript, Node.js, Python, TailwindCSS, and Framer Motion on the frontend and full-stack side. He also has expertise in AI tool development, LLM integrations, payments integration, and data engineering with Python ETL processes.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Is Daniel Chung available for remote freelance work?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. Daniel Chung is available for remote freelance projects and technical consulting engagements for clients worldwide, working from Panama City, Panama.',
+      },
+    },
+  ],
+}
+
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -81,6 +136,10 @@ export default function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <ThemeWrapper />
     </>

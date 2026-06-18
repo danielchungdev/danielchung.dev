@@ -24,3 +24,7 @@ User-agent: Applebot
 Allow: /
 
 Sitemap: https://danielchung.dev/sitemap.xml
+
+# AI context files
+# https://danielchung.dev/llms.txt
+# https://danielchung.dev/llms-full.txt

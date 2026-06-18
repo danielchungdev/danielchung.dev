@@ -1,5 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
+import { Analytics } from '@vercel/analytics/next'
 
 export const metadata: Metadata = {
   title: 'Daniel Chung | Freelance Web Developer in Panama',
@@ -65,6 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className="font-mono text-sm min-h-screen bg-[#f0f0f0] dark:bg-[#111111] text-neutral-900 dark:text-neutral-200 transition-colors duration-300">
         {children}
+        <Analytics />
       </body>
     </html>
   )

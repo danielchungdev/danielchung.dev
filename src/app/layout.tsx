@@ -34,12 +34,21 @@ export const metadata: Metadata = {
     siteName: 'Daniel Chung',
     type: 'profile',
     locale: 'en_US',
+    images: [
+      {
+        url: '/images/background.jpg',
+        width: 1919,
+        height: 946,
+        alt: 'Daniel Chung — Freelance Web Developer in Panama',
+      },
+    ],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'Daniel Chung | Freelance Web Developer in Panama',
     description:
       'Freelance full-stack web developer in Panama City, Panama. React, Next.js, TypeScript, AI tools.',
+    images: ['/images/background.jpg'],
   },
   robots: {
     index: true,

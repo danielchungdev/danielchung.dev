@@ -9,6 +9,12 @@ const jsonLd = {
       name: 'Daniel Chung',
       url: 'https://danielchung.dev',
       email: 'daniel@danielchung.dev',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://danielchung.dev/images/profile.png',
+        width: 400,
+        height: 400,
+      },
       jobTitle: 'Freelance Full-Stack Web Developer',
       description:
         'Daniel Chung is a freelance full-stack web developer and software engineer based in Panama City, Panama, specializing in React, Next.js, TypeScript, and AI tools.',

@@ -7,7 +7,10 @@
       "Bash(npm install *)",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('postcss:', d.get\\('dependencies', {}\\).get\\('postcss', 'not found'\\)\\); print\\('peerDeps:', d.get\\('peerDependencies', {}\\).get\\('postcss', 'not found'\\)\\)\")",
       "Bash(npm info *)",
-      "Bash(python3 -c \"import json,sys; versions=json.load\\(sys.stdin\\); print\\([v for v in versions if v.startswith\\('4.'\\)][-5:]\\)\")"
+      "Bash(python3 -c \"import json,sys; versions=json.load\\(sys.stdin\\); print\\([v for v in versions if v.startswith\\('4.'\\)][-5:]\\)\")",
+      "Bash(python3 -c \"from PIL import Image; img=Image.open\\('/Users/danielchung/Documents/danielchung.dev/public/images/profile.png'\\); print\\('profile.png:', img.size\\); img2=Image.open\\('/Users/danielchung/Documents/danielchung.dev/public/images/background.jpg'\\); print\\('background.jpg:', img2.size\\)\")",
+      "Bash(sips -g pixelWidth -g pixelHeight /Users/danielchung/Documents/danielchung.dev/public/images/profile.png /Users/danielchung/Documents/danielchung.dev/public/images/background.jpg)",
+      "Bash(node *)"
     ]
   }
 }

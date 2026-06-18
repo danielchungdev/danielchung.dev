@@ -36,13 +36,13 @@ export default function AnimatedContent() {
       <motion.div variants={section} className="mb-16">
         <p className="leading-relaxed mb-4">
           Currently building AI tools @{' '}
-          <a href="https://www.modop.com/" target="_blank" className="text-blue-600 dark:text-blue-400 underline underline-offset-2">
+          <a href="https://www.modop.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline underline-offset-2">
             Mod Op
           </a>
         </p>
         <div className="flex gap-4">
-          <a href="https://github.com/danielchungdev" target="_blank" className="text-blue-600 dark:text-blue-400 underline underline-offset-2">github</a>
-          <a href="https://www.linkedin.com/in/danielchungdev" target="_blank" className="text-blue-600 dark:text-blue-400 underline underline-offset-2">linkedin</a>
+          <a href="https://github.com/danielchungdev" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline underline-offset-2">github</a>
+          <a href="https://www.linkedin.com/in/danielchungdev" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline underline-offset-2">linkedin</a>
           <a href="mailto:daniel@danielchung.dev" className="text-blue-600 dark:text-blue-400 underline underline-offset-2">email</a>
         </div>
       </motion.div>
@@ -55,7 +55,7 @@ export default function AnimatedContent() {
             <motion.div key={i} variants={card} className="border-l-2 border-neutral-400 dark:border-neutral-600 pl-4">
               <p className="font-bold">{job.position}</p>
               <p>
-                <a href={job.website} target="_blank" className="text-blue-600 dark:text-blue-400">
+                <a href={job.website} target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400">
                   {job.company}
                 </a>
                 {' '}/ {job.years}
@@ -75,6 +75,7 @@ export default function AnimatedContent() {
               key={i}
               href={project.website}
               target="_blank"
+              rel="noopener noreferrer"
               className="block border border-neutral-300 dark:border-neutral-700 rounded p-4 hover:border-blue-600 dark:hover:border-blue-400 transition-colors duration-150"
               whileHover={{ y: -3, boxShadow: '0 6px 20px rgba(0,0,0,0.1)' }}
               transition={{ duration: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
